@@ -42,27 +42,27 @@ const data = {
   navMain: [
     {
       title: "Dashboard",
-      url: "#",
+      url: "/",
       icon: IconDashboard,
     },
     {
       title: "Lifecycle",
-      url: "#",
+      url: "/lifecycle",
       icon: IconListDetails,
     },
     {
       title: "Analytics",
-      url: "#",
+      url: "/analytics",
       icon: IconChartBar,
     },
     {
       title: "Projects",
-      url: "#",
+      url: "/documents",
       icon: IconFolder,
     },
     {
       title: "Team",
-      url: "#",
+      url: "/users",
       icon: IconUsers,
     },
   ],
@@ -71,30 +71,30 @@ const data = {
       title: "Capture",
       icon: IconCamera,
       isActive: true,
-      url: "#",
+      url: "/prompts",
       items: [
         {
           title: "Active Proposals",
-          url: "#",
+          url: "/prompts/active",
         },
         {
           title: "Archived",
-          url: "#",
+          url: "/prompts/archived",
         },
       ],
     },
     {
       title: "Proposal",
       icon: IconFileDescription,
-      url: "#",
+      url: "/documents",
       items: [
         {
           title: "Active Proposals",
-          url: "#",
+          url: "/documents/active",
         },
         {
           title: "Archived",
-          url: "#",
+          url: "/documents/archived",
         },
       ],
     },
@@ -117,34 +117,34 @@ const data = {
   navSecondary: [
     {
       title: "Settings",
-      url: "#",
+      url: "/settings",
       icon: IconSettings,
     },
     {
       title: "Get Help",
-      url: "#",
+      url: "/help",
       icon: IconHelp,
     },
     {
       title: "Search",
-      url: "#",
+      url: "/search",
       icon: IconSearch,
     },
   ],
   documents: [
     {
       name: "Data Library",
-      url: "#",
+      url: "/analytics",
       icon: IconDatabase,
     },
     {
       name: "Reports",
-      url: "#",
+      url: "/analytics/reports",
       icon: IconReport,
     },
     {
       name: "Word Assistant",
-      url: "#",
+      url: "/prompts/word-assistant",
       icon: IconFileWord,
     },
   ],
